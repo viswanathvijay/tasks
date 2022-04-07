@@ -9,7 +9,6 @@ public class Task2 {
         map.put('}','{');
         map.put(')','(');
         map.put(']','[');
-        s=s.trim();
         Stack<Character> st=new Stack<Character>();
         for(int i=0;i<s.length();i++){
             if(s.charAt(i)=='{'||s.charAt(i)=='['||s.charAt(i)=='(')
